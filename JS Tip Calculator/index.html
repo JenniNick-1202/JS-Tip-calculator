@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <form action="">
+            <div class="control">
+                <p>Your Total Bill is</p>
+                <p class="input">
+                    £
+                <input type="text" id="totalBill" placeholder="0">
+                </p>
+            </div>
+            <div class="control">
+                <p>Choose your Tip</p>
+                <select id="tipPercent">
+                    <option disabled selected value="0">Please choose</option>
+                    <option value="0.4">40%</option>
+                    <option value="0.3">30%</option>
+                    <option value="0.25">25%</option>
+                    <option value="0.2">20%</option>
+                    <option value="0.15">15%</option>
+                </select>
+            </div>
+        </form>
+        <p>Split the bill between;</p>
+        <label for="split">Number of People:</label>
+        <input type="text" id="split" placeholder="0"><br>
+        <button id="Calculate">Calculate</button>
+        <div class="totalTip">
+            <p>Total Tip per person</p>
+            <p class="tip">£ <span id="tip">0.00</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

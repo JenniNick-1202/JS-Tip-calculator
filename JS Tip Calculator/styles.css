@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Protest Riot", sans-serif;
+    height: 100vh;
+    background-color: antiquewhite;
+    font-size: 16px;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    background-color: white;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 1px 1px 13px #990000;
+}
+
+h1 {
+    background-color: #ff6666;
+    padding: 10px 0;
+    font-size: 50px;
+    border-radius: 18px;
+}
+
+p {
+    color: #b30000;
+}
+
+.control {
+    margin: 30px;
+}
+
+input{
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 1px solid #660000;
+    color: red;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+Select {
+    border: none;
+    outline: none;
+    border: 1px solid #660000;
+    color: red;
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 5px;
+    width: 60%;
+    text-align: center;
+}
+
+button#calculate {
+    color: white;
+    background-color: #b30000;
+    border: 1px solid transparent;
+    font-size: 15px;
+    padding: 10px 15px;
+    margin: 15px;
+}
+
+button#calculate:hover {
+    color:#ff6666;
+    border-color: #ff6666;
+    background-color: antiquewhite;
+}
+
+.totalTip {
+    background-color: #ffe6e6;
+    border-radius: 18px;
+    padding: 15px 0 25px;
+    font-size: 25px;
+    color:#660000;
+}
+
+button#calculate {
+    color:#990000 red;
+}
